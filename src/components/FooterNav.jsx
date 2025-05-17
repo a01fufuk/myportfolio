@@ -10,7 +10,7 @@ export default function FooterNav({ view, setView }) {
   return (
     <>
       {/* Mobile footer: show full text labels */}
-      <nav className="fixed bottom-0 left-0 w-full bg-zinc-800/90 backdrop-blur py-2 flex justify-around md:hidden">
+      <nav className="fixed bottom-0 left-0 w-full bg-zinc-800/90 backdrop-blur py-4 flex justify-around md:hidden">
         {buttons.map((btn) => (
           <button
             key={btn.view}

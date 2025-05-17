@@ -8,9 +8,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import FooterNav from "./components/FooterNav";
 import Header from "./components/Header";
-// import LandingV2 from "./components/LandingV2";
-import LandingV2Rev1 from "./components/LandingV2Rev1";
-// import LandingV3 from "./components/LandingV3";
+import Landing from "./components/Landing";
+import AboutV2 from "./pages/Aboutv2";
 
 const landingVariants = {
   initial: { opacity: 0, y: 50 },
@@ -44,7 +43,7 @@ function App() {
     <div className="flex flex-col h-screen">
       <Header title={view} />
       {/* ALWAYS top-aligned with padding */}
-      <div className="flex-grow overflow-y-auto pt-12 px-4 md:px-8">
+      <div className="flex-grow overflow-y-auto pt-4 md:pt-8 pb-4 md:pb-8 px-4 md:px-8 mb-8">
         <AnimatePresence mode="wait" initial={false}>
           <FramerMotion.div
             key={view}
@@ -55,9 +54,9 @@ function App() {
             transition={transition}
             className="w-full h-full"
           >
-            {view === "landing" && <LandingV2Rev1 />}
+            {view === "landing" && <Landing />}
             {view === "projects" && <Projects />}
-            {view === "about" && <About />}
+            {view === "about" && <AboutV2 />}
             {view === "contact" && <Contact />}
           </FramerMotion.div>
         </AnimatePresence>
