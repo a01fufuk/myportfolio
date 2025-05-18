@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import FooterNav from "./components/FooterNav";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
-import AboutV2 from "./pages/Aboutv2";
+import AboutV2 from "./pages/About";
 
 const landingVariants = {
   initial: { opacity: 0, y: 50 },
@@ -56,7 +56,7 @@ function App() {
           >
             {view === "landing" && <Landing />}
             {view === "projects" && <Projects />}
-            {view === "about" && <AboutV2 />}
+            {view === "about" && <About />}
             {view === "contact" && <Contact />}
           </FramerMotion.div>
         </AnimatePresence>
