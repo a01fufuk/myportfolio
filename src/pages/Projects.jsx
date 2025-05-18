@@ -7,7 +7,7 @@ const projectData = [
     description:
       "Led backend development for PT.MKP's BMS suite. Delivered three apps: Dashboard Ferry (product setting), Ticket Validator (port-side scan), and Schedule Monitor (admin tool for ferry schedules).",
     tech: ["Golang", "PostgreSQL", "REST", "WebSockets"],
-    image: "/src/images/bms.png",
+    image: "/images/bms.png",
   },
   {
     title: 'Ferry Agent POS ("Loket Agen")',
@@ -15,7 +15,7 @@ const projectData = [
     description:
       "Initiated the development of a digital Point-of-Sale system for ferry agents, digitalizing the ferry ticketing process. Integrated external stackholder's APIs that led to PT. MKP's Public Transport product line.",
     tech: ["Golang", "PostgreSQL", "MongoDB", "React", "Electron"],
-    image: "/src/images/loket.png",
+    image: "/images/loket.png",
   },
   {
     title: "TiketKapal.com",
@@ -23,7 +23,7 @@ const projectData = [
     description:
       "Spearheaded development of a ferry booking platform for the public, with native and web support via React and Flutter. Supported ferry agents in reaching broader audiences online.",
     tech: ["Golang", "PostgreSQL", "MongoDB", "React", "Flutter"],
-    image: "/src/images/tiketkapal.jpeg",
+    image: "/images/tiketkapal.jpeg",
   },
   {
     title: "Lifestyle TiketKapal.com",
@@ -31,7 +31,7 @@ const projectData = [
     description:
       "Transformed tiketkapal.com into a lifestyle-ready platform compatible with webview embedding in Livin Sukha. Added distribution channels to expand user reach and boost agent visibility.",
     tech: ["Golang", "PostgreSQL", "MongoDB", "React", "Rest API"],
-    image: "/src/images/batamlstyle.jpeg",
+    image: "/images/batamlstyle.jpeg",
   },
   {
     title: "PELNI & Major Bank Integrations",
@@ -39,7 +39,7 @@ const projectData = [
     description:
       "Implemented backend integrations between MKP ticketing and national ferry operator PELNI, supporting payments from BCA, Livin, and BRI.",
     tech: ["Golang", "PostgreSQL", "Bank APIs"],
-    image: "src/images/pelni.jpeg",
+    image: "/images/pelni.jpeg",
   },
   {
     title: "BCA Lifestyle Integration",
@@ -47,7 +47,7 @@ const projectData = [
     description:
       "Contributed to the backend engine enabling tourism ticketing services through BCA Lifestyle's digital ecosystem.",
     tech: ["Golang", "PostgreSQL", "REST"],
-    image: "src/images/bca.jpeg",
+    image: "/images/bca.jpeg",
   },
   {
     title: "Unified Dashboard",
@@ -55,7 +55,7 @@ const projectData = [
     description:
       "Developed backend pipelines to sync ticketing transaction data across business units for a company-wide unified dashboard using gRPC.",
     tech: ["Golang", "PostgreSQL", "gRPC"],
-    image: "src/images/udbm.png",
+    image: "/images/udbm.png",
   },
   {
     title: "Dharmaindah Lifestyle",
@@ -63,7 +63,7 @@ const projectData = [
     description:
       "Mentored a junior backend developer while overseeing architecture and delivery. Focused on guidance and quality control alongside communication with Dharmaindah's team.",
     tech: ["Golang", "PostgreSQL"],
-    image: "src/images/dharmaindah.jpeg",
+    image: "/images/dharmaindah.jpeg",
   },
 ];
 
